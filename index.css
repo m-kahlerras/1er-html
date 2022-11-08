@@ -1,0 +1,124 @@
+body{
+    background-color: bisque;
+}
+h1{
+text-align: center;
+text-transform: capitalize;
+border: 5px solid teal;
+border-radius: 10px;
+color: teal;
+background-color: bisque;
+font-family: Arial, Helvetica, sans-serif;
+border-style: ridge;
+margin-top: 2%;
+}
+h2{
+    margin: 40px;    
+    margin-bottom: 40px;   
+    margin-top: 70px; 
+font-family: Arial, Helvetica, sans-serif;
+color: teal;
+text-decoration: underline;
+text-align: center;
+}
+.h21{
+margin-top: 50px;
+text-align: left;
+
+
+}
+h3{
+    text-align: center;
+}
+li{ 
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left; 
+    margin-bottom: 30px;
+    
+}
+form{
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.t1{
+font-family: Arial, Helvetica, sans-serif;
+border-style: inherit;
+
+
+
+}
+fieldset{
+    background-color: lightslategray;
+    border-style: ridge;
+    border-radius: 10px;
+}
+div{
+    text-align: center;
+}
+a{
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid teal;
+    background-color: lightslategray;
+    border-radius: 10px;
+    border-style: ridge;
+    display: inline-block;
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 10%;
+    animation-name: slide;
+    animation-delay: 1s;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes slide {
+    from{
+        border-style: ridge;
+        background-color: lightslategray;
+    }
+    to{
+        border-style: outset;
+        background-color: rgb(55, 124, 124);
+    }
+}
+.div2{
+    align-content: center;
+    margin-top: 2%;
+}
+.h23{
+    text-align: center;
+}
+legend{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.forflex{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3%;
+}
+.flex2{
+    display: flex;
+   justify-content: space-evenly;
+}
+@media screen and (min-width: 320px) 
+{ 
+    .forflex
+    { 
+        background-color: blue;
+    } 
+} 
+
+@media screen and (min-width: 768px) 
+{ 
+    .forflex
+    { 
+        background-color: chocolate; 
+    } 
+}
+
+@media only screen and (min-width: 600px ) and (max-width: 769px)
+{
+    .forflex
+    {
+        background-color: blueviolet;
+    }
+}
